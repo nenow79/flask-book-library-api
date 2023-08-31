@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book library app</title>
+    <link rel="stylesheet" href="{{url_for('web.static', filename='/css/style.css')}}">
+</head>
+
+<body>
+    <h1>Book library app</h1>
+    <p>Perfect app for book management</p>
+    <br>
+    <br>
+    <br>
+    <p>Hello <span id="user">Unknown User</span> <span id="login">please <a href="/book-library/login">Login</a>
+            yourself or <a href="/book-library/register">Register</a></span> <span id="logout"> log-out</span></p>
+    <script src="{{url_for('web.static', filename='/js/main.js')}}"></script>
+</body>
+
+</html>

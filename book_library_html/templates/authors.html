@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book library app</title>
+    <link rel="stylesheet" href="{{url_for('web.static', filename='/css/style.css')}}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Book library app</h1>
+        <p>Perfect app for book management</p>
+        <table class="table" id="myTable">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Birth date</th>
+            </tr>
+        </table>
+    </div>
+    <script src="{{url_for('web.static', filename='/js/authors.js')}}"></script>
+</body>
+
+</html>
